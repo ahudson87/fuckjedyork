@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Aleo-Regular';
+  src: url('../fonts/aleo-regular/Aleo-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/aleo-regular/Aleo-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/aleo-regular/Aleo-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/aleo-regular/Aleo-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/aleo-regular/Aleo-Regular.svg') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url('../fonts/impact/Impact.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/impact/Impact.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/impact/Impact.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/impact/Impact.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/impact/Impact.svg') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}

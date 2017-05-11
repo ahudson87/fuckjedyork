@@ -1,0 +1,141 @@
+#modal-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  -webkit-animation: fade-in .3s forwards; /* Safari 4+ */
+  -moz-animation:    fade-in .3s forwards; /* Fx 5+ */
+  -o-animation:      fade-in .3s forwards; /* Opera 12+ */
+  animation:         fade-in .3s forwards; /* IE 10+, Fx 29+ */
+}
+
+.modal-window {
+  display: block;
+  position: relative;
+  width: 50%;
+  background-color: whitesmoke;
+  margin: 5rem auto 0;
+  color: black;
+  text-align: center;
+  padding: 6rem 4rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  -webkit-animation: drop-in .3s ease-in-out forwards; /* Safari 4+ */
+  -moz-animation:    drop-in .3s ease-in-out forwards; /* Fx 5+ */
+  -o-animation:      drop-in .3s ease-in-out forwards; /* Opera 12+ */
+  animation:         drop-in .3s ease-in-out forwards; /* IE 10+, Fx 29+ */
+}
+
+.modal-window button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 1px solid #393939;;
+  color: #393939;;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.modal-window button:hover {
+  background-color: #393939;;
+  color: whitesmoke;
+}
+
+.modal-window h1 {
+  color: #393939;
+}
+
+.modal-window ul {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.modal-window ul li {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 50%;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  color: #393939;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255,255,255,.75);
+}
+
+.modal-window ul li + li {
+  margin-top: 10px;
+}
+
+#modal-overlay.hide-the-modal {
+  display: none;
+  -webkit-animation: none; /* Safari 4+ */
+  -moz-animation:    none; /* Fx 5+ */
+  -o-animation:      none; /* Opera 12+ */
+  animation:         none; /* IE 10+, Fx 29+ */
+}
+
+#modal-overlay.hide-the-modal .modal-window {
+  transform: translateY(-300px);
+  -webkit-animation: none; /* Safari 4+ */
+  -moz-animation:    none; /* Fx 5+ */
+  -o-animation:      none; /* Opera 12+ */
+  animation:         none; /* IE 10+, Fx 29+ */
+}
+
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes fade-in {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes drop-in {
+  0%   { transform: translateY(-300px); }
+  100% { transform: translateY(0); }
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes drop-in {
+    0% { transform: translateY(-300px); }
+  100% { transform: translateY(0); }
+}
+
+
+/*LINK HACK UNTIL PROPER WITH SASS*/
+/*a:active {
+  color: white !important;
+}
+
+a:visited {
+  color: white !important;
+}
+
+.comments-preivew {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  color: white;
+  border-top: 1px dashed white;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+

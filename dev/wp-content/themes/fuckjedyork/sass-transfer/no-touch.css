@@ -1,0 +1,78 @@
+/* line 5, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch a:hover {
+  color: #fff;
+}
+/* line 7, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch a:hover h1 {
+  text-shadow: 1px 1px #97233f, 2px 2px #97233f, 3px 3px #97233f, 4px 4px #b3995d, 5px 5px #b3995d, 6px 6px #b3995d;
+}
+/* line 17, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch nav a:hover {
+  color: #b3995d;
+}
+/* line 20, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch a span.cta {
+  opacity: 0;
+  -moz-transform: translate(0, 20px);
+  -ms-transform: translate(0, 20px);
+  -webkit-transform: translate(0, 20px);
+  transform: translate(0, 20px);
+}
+/* line 25, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch a:hover span.cta {
+  opacity: 1;
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+/* line 30, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch p a:hover {
+  background-color: transparent;
+  color: #b3995d;
+  border-color: #b3995d;
+}
+/* line 36, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch nav a.link-icon-right:hover span.icon {
+  margin-left: 1.5rem;
+}
+/* line 41, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch nav a.link-icon-left:hover span.icon {
+  margin-right: 1.5rem;
+}
+/* line 46, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch form input:hover, html.no-touch form textarea:hover {
+  border-color: #b3995d;
+  background-color: rgba(17, 28, 36, 0.2);
+}
+/* line 61, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+html.no-touch form input:hover:-moz-placeholder, html.no-touch form textarea:hover:-moz-placeholder {
+  color: #b3995d;
+  padding-left: 2rem;
+}
+/* line 64, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+html.no-touch form input:hover::-moz-placeholder, html.no-touch form textarea:hover::-moz-placeholder {
+  color: #b3995d;
+  padding-left: 2rem;
+}
+/* line 67, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+html.no-touch form input:hover:-ms-input-placeholder, html.no-touch form textarea:hover:-ms-input-placeholder {
+  color: #b3995d;
+  padding-left: 2rem;
+}
+/* line 56, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/css3/_user-interface.scss */
+html.no-touch form input:hover::-webkit-input-placeholder, html.no-touch form textarea:hover::-webkit-input-placeholder {
+  color: #b3995d;
+  padding-left: 2rem;
+}
+/* line 54, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch form button:hover {
+  background-color: transparent;
+  color: #b3995d;
+}
+/* line 61, ../../../../../../flat-front/sass/no-touch.scss */
+html.no-touch footer a:hover {
+  color: #8e8e8e;
+  border-color: #8e8e8e;
+  padding-bottom: .3rem;
+}
